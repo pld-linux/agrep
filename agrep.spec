@@ -2,7 +2,7 @@ Summary:	Approximate grep
 Summary(pl):	Wersja grep dopuszczaj±ca b³êdy
 Name:		agrep
 Version:	2.04
-Release:	5
+Release:	6
 License:	distributable not for profit, free use
 Group:		Applications/Text
 Source0:	ftp://ftp.cs.arizona.edu/agrep/%{name}-%{version}.tar.Z
@@ -21,7 +21,8 @@ przybli¿one.
 %setup -q
 
 %build
-%{__make} CFLAGS="%{rpmcflags}"
+%{__make} \
+	CFLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
