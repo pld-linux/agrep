@@ -8,7 +8,7 @@ Group:		Applications/Text
 Source0:	ftp://ftp.cs.arizona.edu/agrep/%{name}-%{version}.tar.Z
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%description 
+%description
 Tool for fast text searching allowing errors. It's similar to egrep
 (or grep or fgrep), but it is much more general and usually faster.
 
@@ -17,7 +17,7 @@ agrep jest narzêdziem podobnym do grep, ale umo¿liwia przeszukiwanie
 przybli¿one.
 
 %prep
-%setup -q 
+%setup -q
 
 %build
 %{__make} CFLAGS="%{rpmcflags}"
