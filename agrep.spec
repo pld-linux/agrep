@@ -29,13 +29,11 @@ install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
 install agrep $RPM_BUILD_ROOT%{_bindir}/agrep
 install agrep.1 $RPM_BUILD_ROOT%{_mandir}/man1/agrep.1
 
-gzip -9nf COPYRIGHT README agrep.algorithms agrep.chronicle contribution.list
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc COPYRIGHT README agrep.algorithms agrep.chronicle contribution.list
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*
