@@ -6,6 +6,7 @@ Release:	5
 License:	distributable not for profit, free use
 Group:		Applications/Text
 Source0:	ftp://ftp.cs.arizona.edu/agrep/%{name}-%{version}.tar.Z
+# Source0-md5:	abc645404d3926a57c3f5e86a6e89ee9
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
