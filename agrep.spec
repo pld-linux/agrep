@@ -7,7 +7,7 @@ License:	distributable not for profit, free use
 Group:		Applications/Text
 Group(de):	Applikationen/Text
 Group(pl):	Aplikacje/Tekst
-Source0:	ftp://ftp.cs.arizona/agrep/%{name}-%{version}.tar.Z
+Source0:	ftp://ftp.cs.arizona.edu/agrep/%{name}-%{version}.tar.Z
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description 
