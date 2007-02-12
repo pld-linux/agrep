@@ -1,5 +1,5 @@
 Summary:	Approximate grep
-Summary(pl):	Wersja grep dopuszczaj±ca b³êdy
+Summary(pl.UTF-8):   Wersja grep dopuszczajÄ…ca bÅ‚Ä™dy
 Name:		agrep
 Version:	2.04
 Release:	6
@@ -13,9 +13,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Tool for fast text searching allowing errors. It's similar to egrep
 (or grep or fgrep), but it is much more general and usually faster.
 
-%description -l pl
-agrep jest narzêdziem podobnym do grep, ale umo¿liwia przeszukiwanie
-przybli¿one.
+%description -l pl.UTF-8
+agrep jest narzÄ™dziem podobnym do grep, ale umoÅ¼liwia przeszukiwanie
+przybliÅ¼one.
 
 %prep
 %setup -q
