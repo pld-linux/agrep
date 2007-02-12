@@ -1,5 +1,5 @@
 Summary:	Approximate grep
-Summary(pl.UTF-8):   Wersja grep dopuszczająca błędy
+Summary(pl.UTF-8):	Wersja grep dopuszczająca błędy
 Name:		agrep
 Version:	2.04
 Release:	6
